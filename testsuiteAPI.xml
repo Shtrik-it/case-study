@@ -1,0 +1,8 @@
+<suite name="Bosch - case study - API Tests">
+    <test name = "case study">
+        <classes>
+           <class name = "com.bosch.casestudy.api.APITest">
+           </class>
+        </classes>
+    </test>
+</suite>
