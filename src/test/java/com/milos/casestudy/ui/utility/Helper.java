@@ -1,4 +1,4 @@
-package com.bosch.casestudy.ui.utility;
+package com.milos.casestudy.ui.utility;
 
 import org.openqa.selenium.WebElement;
 

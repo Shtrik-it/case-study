@@ -1,10 +1,10 @@
-package com.bosch.casestudy.ui.tests;
+package com.milos.casestudy.ui.tests;
 
-import com.bosch.casestudy.ui.pages.HomePage;
-import com.bosch.casestudy.ui.pages.SearchResultPage;
-import com.bosch.casestudy.ui.utility.BaseTest;
-import com.bosch.casestudy.ui.utility.BrowserFactory;
-import com.bosch.casestudy.ui.utility.report.TestNGListener;
+import com.milos.casestudy.ui.pages.HomePage;
+import com.milos.casestudy.ui.pages.SearchResultPage;
+import com.milos.casestudy.ui.utility.BaseTest;
+import com.milos.casestudy.ui.utility.BrowserFactory;
+import com.milos.casestudy.ui.utility.report.TestNGListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

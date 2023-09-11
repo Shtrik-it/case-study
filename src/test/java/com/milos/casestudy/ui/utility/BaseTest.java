@@ -1,6 +1,6 @@
-package com.bosch.casestudy.ui.utility;
+package com.milos.casestudy.ui.utility;
 
-import com.bosch.casestudy.ui.utility.report.Reporter;
+import com.milos.casestudy.ui.utility.report.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 

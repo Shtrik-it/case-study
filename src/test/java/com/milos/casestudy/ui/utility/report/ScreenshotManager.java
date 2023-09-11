@@ -1,4 +1,4 @@
-package com.bosch.casestudy.ui.utility.report;
+package com.milos.casestudy.ui.utility.report;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

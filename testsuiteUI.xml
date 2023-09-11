@@ -1,10 +1,10 @@
 <suite name="Bosch - case study - UI Tests">
     <listeners>
-        <listener class-name="com.bosch.casestudy.ui.utility.report.TestNGListener" />
+        <listener class-name="com.milos.casestudy.ui.utility.report.TestNGListener" />
     </listeners>
     <test name = "case study">
         <classes>
-           <class name = "com.bosch.casestudy.ui.tests.SearchTest">
+           <class name = "com.milos.casestudy.ui.tests.SearchTest">
            </class>
         </classes>
     </test>

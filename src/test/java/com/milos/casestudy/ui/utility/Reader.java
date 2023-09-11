@@ -1,4 +1,4 @@
-package com.bosch.casestudy.ui.utility;
+package com.milos.casestudy.ui.utility;
 
 import java.io.File;
 import java.io.FileInputStream;

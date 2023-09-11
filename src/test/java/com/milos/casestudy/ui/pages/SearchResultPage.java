@@ -1,7 +1,7 @@
-package com.bosch.casestudy.ui.pages;
+package com.milos.casestudy.ui.pages;
 
-import com.bosch.casestudy.ui.utility.Helper;
-import com.bosch.casestudy.ui.utility.report.Reporter;
+import com.milos.casestudy.ui.utility.Helper;
+import com.milos.casestudy.ui.utility.report.Reporter;
 import com.google.common.collect.Comparators;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

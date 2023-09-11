@@ -1,10 +1,10 @@
-package com.bosch.casestudy.ui.utility.report;
+package com.milos.casestudy.ui.utility.report;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.bosch.casestudy.ui.utility.Helper;
+import com.milos.casestudy.ui.utility.Helper;
 
 import java.awt.*;
 import java.io.File;

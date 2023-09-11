@@ -1,6 +1,6 @@
-package com.bosch.casestudy.ui.pages;
+package com.milos.casestudy.ui.pages;
 
-import com.bosch.casestudy.ui.utility.report.Reporter;
+import com.milos.casestudy.ui.utility.report.Reporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

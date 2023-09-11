@@ -1,4 +1,4 @@
-package com.bosch.casestudy.api;
+package com.milos.casestudy.api;
 
 import io.restassured.response.Response;
 import org.testng.Assert;
