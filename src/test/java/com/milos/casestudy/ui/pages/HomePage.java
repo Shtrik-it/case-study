@@ -24,6 +24,7 @@ public class HomePage {
         Reporter.info("Searched for '"+ productName +"'");
         return this;
     }
+    
     public HomePage chooseSearchSuggestionCategoryByName(String categoryName) {
         WebElement searchSuggestionItem = driver.findElement(By.xpath("//span[normalize-space()='"+ categoryName +"']"));
         searchSuggestionItem.click();
