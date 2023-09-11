@@ -7,7 +7,7 @@ The project displays a test automation approach for UI and API tests, using Java
 
 1. Clone the repository.
 2. Install Maven dependencies from pom.xml.
-3. Run the suite UI and API test suite from testsuiteUI.xml and testsuiteAPI.xml respectively.
+3. Run the UI and API test suite from testsuiteUI.xml and testsuiteAPI.xml respectively.
 
 
 ### Configuring
