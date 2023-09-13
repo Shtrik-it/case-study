@@ -23,8 +23,8 @@ public class BrowserFactory {
     }
 
     private static WebDriver chooseBrowser() {
-        if (BrowserFactory.browserChoice == null) {
-            System.out.println("WebDriver choice not specified in the property file.");
+        if (BrowserFactory.browserChoice == null || BrowserFactory.browserChoice.isEmpty()) {
+            System.out.println("WebDriver choice not specified in the config.properties file.");
         } else switch (BrowserFactory.browserChoice.toLowerCase()) {
             case "chrome" -> driver = new ChromeDriver(new ChromeOptions().addArguments(isHeadless()));
             case "firefox" -> driver = new FirefoxDriver(new FirefoxOptions().addArguments(isHeadless()));

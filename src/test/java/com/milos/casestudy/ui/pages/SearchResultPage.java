@@ -42,7 +42,7 @@ public class SearchResultPage {
     }
 
     public boolean isSortedByPopular() {
-        ArrayList<String> viewCountStringList = Helper.getStringArray(viewCountField);
+        ArrayList<String> viewCountStringList = removeDotsFromText(Helper.getStringArray(viewCountField));
         ArrayList<Integer> viewCountIntegerList = Helper.convertToIntegerArrayList(viewCountStringList);
         return Comparators.isInOrder(viewCountIntegerList, Comparator.reverseOrder());
     }
@@ -50,5 +50,14 @@ public class SearchResultPage {
     public boolean isInCorrectCategory(String categoryName) {
         ArrayList<String> breadCrumbTextList = Helper.getStringArray(productListBreadcrumbs);
         return breadCrumbTextList.contains(categoryName);
+    }
+
+    private ArrayList<String> removeDotsFromText(ArrayList<String> list) {
+        ArrayList<String> updatedList = new ArrayList<>();
+        for (String str : list) {
+            String updatedString = str.replace(".", "");
+            updatedList.add(updatedString);
+        }
+        return updatedList;
     }
 }

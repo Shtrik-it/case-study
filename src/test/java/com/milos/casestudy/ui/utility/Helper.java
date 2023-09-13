@@ -21,7 +21,7 @@ public class Helper {
 
         for (String str : listOfStrings) {
             try {
-                int intValue = Integer.parseInt(str.replace(".",""));
+                int intValue = Integer.parseInt(str);
                 listOfIntegers.add(intValue);
             } catch (NumberFormatException e) {
                 System.err.println("Skipping invalid string: " + str);
