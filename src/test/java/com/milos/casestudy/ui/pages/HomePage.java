@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
+    
     public HomePage (WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -23,6 +24,7 @@ public class HomePage {
         Reporter.info("Searched for '"+ productName +"'");
         return this;
     }
+    
     public HomePage chooseSearchSuggestionCategoryByName(String categoryName) {
         WebElement searchSuggestionItem = driver.findElement(By.xpath("//span[normalize-space()='"+ categoryName +"']"));
         searchSuggestionItem.click();

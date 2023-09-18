@@ -1,4 +1,4 @@
-<suite name="Bosch - case study - UI Tests">
+<suite name="Milos - case study - UI Tests">
     <listeners>
         <listener class-name="com.milos.casestudy.ui.utility.report.TestNGListener" />
     </listeners>
